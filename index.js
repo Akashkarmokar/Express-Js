@@ -2,13 +2,13 @@
  * Imported Module
  */
 const express = require('express');
-
+const branch_route = require('./branch_route');
 
 /**
  * App instances
  */
 const app = express();
-
+app.use(branch_route);
 
 /**
  * Listen server at port
