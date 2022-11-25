@@ -1,0 +1,14 @@
+{
+  "name": "base_project",
+  "version": "1.0.0",
+  "description": "This project will hold all of my practice on express-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akashcsemu@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
